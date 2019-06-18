@@ -1,0 +1,7 @@
+Wygeneruj recordy dla kwadratu:
+
+python generate_tfrecord.py --label=square --csv_input=../annotations/train_labels.csv --img_path=../images/train  --output_path=../annotations/train.record
+
+python generate_tfrecord.py --label=square --csv_input=../annotations/test_labels.csv --img_path=../images/test  --output_path=../annotations/test.record
+
+
