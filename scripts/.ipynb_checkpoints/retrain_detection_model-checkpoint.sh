@@ -34,10 +34,8 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-python setup.py build
-
 python object_detection/model_main.py \
-  --pipeline_config_path="../model/pipeline.config" \
-  --model_dir="../object_detection" \
+  --pipeline_config_path="/Users/maciejsaczewski/Documents/Inzynier/Object_detection_Coral/model/pipeline.config" \
+  --model_dir="/Users/maciejsaczewski/Documents/Inzynier/Object_detection_Coral/model" \
   --num_train_steps="${num_training_steps}" \
   --num_eval_steps="${num_eval_steps}"
