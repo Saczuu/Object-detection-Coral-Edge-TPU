@@ -30,18 +30,20 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-source "$PWD/constants.sh"
+OUTPUT_DIR="../model/output"
+INPUT_TENSORS='normalized_input_image_tensor'
+OUTPUT_TENSORS='TFLite_Detection_PostProcess,TFLite_Detection_PostProcess:1,TFLite_Detection_PostProcess:2,TFLite_Detection_PostProcess:3'
 
+rm -rf "${OUTPUT_DIR}"
 mkdir "${OUTPUT_DIR}"
 
 echo "GENERATING label file..."
-echo "0 Abyssinian" >> "${OUTPUT_DIR}/labels.txt"
-echo "1 american_bulldog" >> "${OUTPUT_DIR}/labels.txt"
+echo "0 Square" >> "${OUTPUT_DIR}/labels.txt"
 
 echo "EXPORTING frozen graph from checkpoint..."
-python object_detection/export_tflite_ssd_graph.py \
-  --pipeline_config_path="${CKPT_DIR}/pipeline.config" \
-  --trained_checkpoint_prefix="${TRAIN_DIR}/model.ckpt-${ckpt_number}" \
+python ../object_detection/export_tflite_ssd_graph.py \
+  --pipeline_config_path="../model/pipeline.config" \
+  --trained_checkpoint_prefix="../model/model.ckpt-${ckpt_number}" \
   --output_directory="${OUTPUT_DIR}" \
   --add_postprocessing_op=true
 
