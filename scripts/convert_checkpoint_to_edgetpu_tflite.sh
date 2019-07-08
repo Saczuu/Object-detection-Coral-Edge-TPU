@@ -30,7 +30,7 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-OUTPUT_DIR="../model/output"
+OUTPUT_DIR="/Detection/model/output"
 INPUT_TENSORS='normalized_input_image_tensor'
 OUTPUT_TENSORS='TFLite_Detection_PostProcess,TFLite_Detection_PostProcess:1,TFLite_Detection_PostProcess:2,TFLite_Detection_PostProcess:3'
 
@@ -42,8 +42,8 @@ echo "0 Square" >> "${OUTPUT_DIR}/labels.txt"
 
 echo "EXPORTING frozen graph from checkpoint..."
 python ../object_detection/export_tflite_ssd_graph.py \
-  --pipeline_config_path="../model/pipeline.config" \
-  --trained_checkpoint_prefix="../model/model.ckpt-${ckpt_number}" \
+  --pipeline_config_path="/Detection/model/pipeline.config" \
+  --trained_checkpoint_prefix="/Detection/model/model.ckpt-${ckpt_number}" \
   --output_directory="${OUTPUT_DIR}" \
   --add_postprocessing_op=true
 
