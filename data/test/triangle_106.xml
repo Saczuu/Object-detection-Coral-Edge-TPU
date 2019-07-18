@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>triangle_106.jpg</filename>
+	<path>/Users/maciejsaczewski/Documents/Inzynier/Object_detection_Coral/data/test/triangle_106.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>triangle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>32</xmin>
+			<ymin>212</ymin>
+			<xmax>76</xmax>
+			<ymax>245</ymax>
+		</bndbox>
+	</object>
+</annotation>

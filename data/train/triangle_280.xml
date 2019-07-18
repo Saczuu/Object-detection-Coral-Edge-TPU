@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>triangle_280.jpg</filename>
+	<path>/Users/maciejsaczewski/Documents/Inzynier/Object_detection_Coral/data/train/triangle_280.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>triangle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>24</xmin>
+			<ymin>162</ymin>
+			<xmax>70</xmax>
+			<ymax>203</ymax>
+		</bndbox>
+	</object>
+</annotation>
