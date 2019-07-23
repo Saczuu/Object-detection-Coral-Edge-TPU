@@ -1,1 +1,0 @@
-python generate_tfrecord.py --label0=square --label1=triangle --csv_input=../data/train_labels.csv --img_path=../data/train  --output_path=../data/train.record
