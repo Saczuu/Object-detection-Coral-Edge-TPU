@@ -122,8 +122,17 @@ class ImagesForModel:
         except:
             pass
         cv2.imwrite("../class_object_image/triangle.jpg", triangle_class_image.T.T)
+        
+    def rotate(self, image, angle=90, scale=1.0):
+        w = image.shape[1]
+        h = image.shape[0]
+        #rotate matrix
+        M = cv2.getRotationMatrix2D((w/2,h/2), angle, scale)
+        #rotate
+        image = cv2.warpAffine(image,M,(w,h))
+        return image
     
-    def placeRandom(self, path_to_class_object, path_to_image):
+    def placeRandom(self, path_to_class_object, path_to_image, rotate=False):
         """
         Funckja ta modyfikuje wejsciowy plik graficzny dodajac do niego obiekt
         który bedzie wyszukiwany przez sieć neuronową.
@@ -132,7 +141,6 @@ class ImagesForModel:
         Plik początkowy następnie jest nadpisywany.
         """
         image = cv2.imread(path_to_image)
-        image = np.array(image)
         new_size_of_object = random.randrange(40, 90)
         custom_object = self.resizeImage(path_to_class_object, new_size_of_object, new_size_of_object, False)
         empty_board = np.zeros(image.shape)
@@ -142,12 +150,16 @@ class ImagesForModel:
             for j in range(0, new_size_of_object):
                 if sum(custom_object[i][j]) >= 10:
                     image[pos_x+i][pos_y+j] = custom_object[i][j]
+        if rotate == True:
+            rota = random.randint(0,180)
+            image = self.rotate(image, rota)
         cv2.imwrite(path_to_image, image)
     
     def resizeImagesInFolder(self, path_to_folder, width, height):
         for root, dirs, files in os.walk(path_to_folder+"/"):
             for directory in dirs:
-                print(directory)
+                if (directory[0] == "."):
+                    continue
                 for root2, dirs2, files2 in os.walk(path_to_folder+"/"+directory+"/"):
                     for filename in files2:
                         if filename[-3:] == "jpg" and "checkpoint" not in filename:
@@ -156,28 +168,17 @@ class ImagesForModel:
                 if filename[-3:] == "jpg" and "checkpoint" not in filename:
                     self.resizeImage(path_to_folder+"/"+filename, width, height)
                 
-    def addObjectImagesInFolder(self, path_to_images, object_name = "square"):
-        for root, dirs, files in os.walk(path_to_images+"/"):
-            for directory in dirs:
-                for root, dirs, files in os.walk(path_to_folder+"/"+directory+"/"):
-                    for filename in files:
-                        if filename[-3:] == "jpg" and "checkpoint" not in filename:
-                            image = path_to_images+"/"+directory+"/"+filename
-                            if object_name == "square":
-                                self.createSquare()
-                                self.placeRandom("../class_object_image/square.jpg", image)
-                            elif object_name == "triangle":
-                                self.createTriangle()
-                                self.placeRandom("../class_object_image/triangle.jpg", image)
+    def addObjectImagesInFolder(self, path_to_folder, object_name = "square", rotate=False):
+        for root, dirs, files in os.walk(path_to_folder+"/"):
             for filename in files:
                 if filename[-3:] == "jpg" and "checkpoint" not in filename:
-                    image = path_to_images+"/"+filename
+                    image = path_to_folder+"/"+filename
                     if object_name == "square":
                         self.createSquare()
-                        self.placeRandom("../class_object_image/square.jpg", image)
+                        self.placeRandom("../class_object_image/square.jpg", image, rotate)
                     elif object_name == "triangle":
                         self.createTriangle()
-                        self.placeRandom("../class_object_image/triangle.jpg", image)
+                        self.placeRandom("../class_object_image/triangle.jpg", image, rotate)
     
     def greyscaleImagesInFolder(self, path_to_folder):
         for root, dirs, files in os.walk(path_to_folder+"/"):

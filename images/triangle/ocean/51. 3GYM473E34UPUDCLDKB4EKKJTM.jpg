@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Consent Form | Popular Science</title>
+    <meta name="robots" content="noindex">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5bc27aeb-6285-4587-9c25-b645397c4739" type="text/javascript" async></script>
+    <script type="text/javascript">
+      function CookiebotCallback_OnAccept() {
+        var expire = new Date(Date.now() + (60 * 60 * 24 * 365 * 1000))
+        var redirect = window.location.search.match(/(?:\?|&)redirect=([^&]+)/);
+        document.cookie = "bonnier_consent=true; expires=" + expire.toUTCString();
+        if (redirect !== null) {
+          window.location = decodeURIComponent(redirect[1]) + window.location.hash;
+        }
+      }
+      function CookiebotCallback_OnDecline() {
+        document.cookie = "bonnier_consent=true; expires=0";
+        CookieConsent.renew();
+      }
+      function toggleView(event) {
+        var targetDiv = document.getElementById(this.attributes['data-target-id'].value);
+        var actionSpan = this.childNodes[0];
+        targetDiv.style.display = targetDiv.style.display === 'none' ? '' : 'none';
+        actionSpan.innerHTML = actionSpan.innerHTML === 'View' ? 'Hide' : 'View';
+        event.preventDefault();
+      }
+      document.addEventListener("DOMContentLoaded", function(event) {
+        var viewDecLink = document.getElementById('view-declaration');
+        var viewPrivLink = document.getElementById('view-privacy-policy');
+        var viewDataDiscLink = document.getElementById('view-data-disc');
+        viewDecLink.addEventListener('click', toggleView);
+        viewPrivLink.addEventListener('click', toggleView);
+        viewDataDiscLink.addEventListener('click', toggleView);
+      });
+    </script>
+    <style>
+      header {
+        height: 25vh;
+        display: flex;
+      }
+      .logo {
+        max-width: 600px;
+        margin: auto;
+      }
+      .logo img {
+        width: 100%;
+      }
+      .intro,
+      .controls,
+      #declaration,
+      #privacy-policy,
+      #data-disc {
+        width: 90%;
+        margin: auto;
+      }
+      #declaration,
+      #privacy-policy,
+      #data-disc {
+        margin-top: 20px;
+      }
+    </style>
+  
+  <script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false"}]);</script>
+  <script>!function(){function o(n,i){if(n&&i)for(var r in i)i.hasOwnProperty(r)&&(void 0===n[r]?n[r]=i[r]:n[r].constructor===Object&&i[r].constructor===Object?o(n[r],i[r]):n[r]=i[r])}try{var n=decodeURIComponent("");if(n.length>0&&window.JSON&&"function"==typeof window.JSON.parse){var i=JSON.parse(n);void 0!==window.BOOMR_config?o(window.BOOMR_config,i):window.BOOMR_config=i}}catch(r){window.console&&"function"==typeof window.console.error&&console.error("mPulse: Could not parse configuration",r)}}();</script>
+  <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,o,r,O=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);O.src="javascript:void(0)",O.title="",O.role="presentation",(O.frameElement||O).style.cssText="width:0;height:0;border:0;display:none;",r=document.getElementsByTagName("script")[0],r.parentNode.insertBefore(O,r);try{o=O.contentWindow.document}catch(_){i=document.domain,O.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",o=O.contentWindow.document}o.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"VNJB8-PMMG2-BJ4KW-TRQB7-KAKPW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},o.write("<bo"+'dy onload="document._l();">'),o.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="kufwaqqcciovgxm3cq3a-f-0ce6b6ab5-clientnsv4-s.akamaihd.net",i={"ak.v":23,"ak.cp":"831193","ak.ai":parseInt("486683",10),"ak.ol":"0","ak.cr":16,"ak.ipv":4,"ak.proto":"","ak.rid":"18ca6c53","ak.r":24484,"ak.a2":e,"ak.m":"f","ak.n":"essl","ak.bpcip":"85.11.96.0","ak.cport":57232,"ak.gh":"2.18.29.79","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1570444342"};if(""!==t)i["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))i["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/">
+          <img src='data:image/jpeg;base64,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' />
+        </a>
+      </div>
+    </header>
+    <div class="intro">
+      <p><strong>Update to privacy policy and how we use cookies.</strong></p>
+      <p>Bonnier Corp. and its brands use cookies to identify your individual device so that we and our third-party partners can efficiently deliver content and advertisements that will be relevant to you, based on the pages you visit on our site(s) and other websites across the internet.</p>
+    </div>
+    <div class="controls">
+      <a href="#" id="view-privacy-policy" data-target-id="privacy-policy"><span class="action">View</span> Privacy Policy</a>
+      <br/>
+      <a href="#" id="view-data-disc" data-target-id="data-disc"><span class="action">View</span> Data Disclosure</a>
+      <br/>
+      <a href="#" id="view-declaration" data-target-id="declaration"><span class="action">View</span> List of Cookies Used on this Site</a>
+    </div>
+    <div id="privacy-policy" style="display: none;">
+      <h2>
+    Bonnier Corporation Privacy Policy
+</h2>
+
+<em>
+    This policy was last updated on May 16, 2018.
+</em>
+
+<p>
+At Bonnier Corporation, your privacy is important to us.  This Privacy Policy applies to all of the products, services, and websites offered by Bonnier Corporation and its subsidiaries or affiliated companies (collectively, "Bonnier").
+</p>
+
+<p>
+To better protect your privacy, we provide this notice explaining our privacy practices and the choices you can make about the way your information is collected and used by Bonnier.
+</p>
+
+<p>
+Bonnier acts as a “data controller” for the purposes of the EU’s General Data Protection Regulation. Bonnier has appointed a Data Protection Officer for you to contact if you have any questions or concerns about Bonnier’s personal data policies or practices. The Data Protection Officer’s contact information is as follows:
+</p>
+
+<p>
+Jeremy Thompson, General Counsel <br>
+Bonnier Corporation <br>
+460 N. Orlando Ave., Ste. 200 <br>
+Winter Park, FL 32789 <br>
+dpo@bonniercorp.com <br>
+</p>
+
+<p>
+If you have any questions about this Privacy Policy, or to check your information to verify, update or correct it, please write to us via e-mail at privacy@bonniercorp.com, or via postal mail at:
+</p>
+
+<p>
+Privacy Department <br>
+Bonnier Corporation <br>
+460 N. Orlando Avenue, Suite 200 <br>
+Winter Park, FL 32789 <br>
+</p>
+
+<p>
+You may also ask for a summary of the information that we have retained, how we have used it, and to whom it has been disclosed. For your protection, we may require that you authenticate your identity before we provide you with any information.
+</p>
+
+<p>
+<strong>
+    Note: For questions related to your magazine subscription, please visit the respective magazine’s customer service website.
+</strong>
+</p>
+
+<h3>
+    An overview of the information that Bonnier may collect
+</h3>
+
+<p>
+You are able to take advantage of many Bonnier products, services, and websites without providing any information that personally identifies you by name, address, or other personally-identifying information. We only collect personally-identifying information when you voluntarily submit it to us.
+</p>
+
+<p>
+Sometimes, we need personally-identifying information in order to provide you with the products and services that you request.  Depending upon the product or service, we may ask you for a variety of personally-identifying information.  This might include, for example, your name, address, e-mail address, telephone number, gender, and birth date.  We may also ask for other information about you, such as your credit card information (when you are making a purchase), interests, income, or education level.  We consider certain identifying information "sensitive."  This includes your credit card number, income level, or any other information that would normally be considered confidential. Some types of personal information will NEVER be requested or collected, such as information on your race or ethnic origin, political opinions, trade union memberships, religious beliefs, health, sex life, or sexual orientation.
+</p>
+
+<p>
+You may choose not to provide us with any personally-identifying information.  In that case, you can still access and use many portions of our websites; however, you will not be able to access and use those portions of any Bonnier website that require your personal information.
+</p>
+
+<p>
+Many Bonnier websites include community features, such as online forums and message boards.  Information that is posted in these areas becomes public information and the use that any third party makes of this information is beyond our ability to control.  You should exercise caution before disclosing any personally-identifying information in these public venues.  If you elect to submit content that includes information that can be used to identify you, you must assume that the content can and will be displayed on any website on the Internet.
+</p>
+
+<p>
+At some Bonnier sites and through certain promotions, you can submit personally-identifying information about other people.  For example, you might submit a person's name and e-mail address to send an electronic greeting card; or, if you order a gift online or offline and want it sent directly to the recipient, you might submit the recipient's name and address.  Some Bonnier websites also provide referral services to help you inform a friend about our websites, products, or services.  The types of personally-identifying information that we collect about other people at pages like these may include the person's name, address, e-mail address, or telephone number.  We will only ask you for the information about your friend that we need in order to do what you request.
+</p>
+
+<p>
+Our properties may feature Nielsen proprietary measurement software, which will allow you to contribute to market research, such as Nielsen TV Ratings. To learn more about the information that Nielsen software may collect and your choices with regard to it, please see the Nielsen Digital Measurement Privacy Policy at <a href="http://www.nielsen.com/digitalprivacy" target="_blank">http://www.nielsen.com/digitalprivacy</a>.
+</p>
+
+<p>
+We allow third-party companies to serve ads and/or collect certain information when you visit our web site and directly in emails/communications. These companies may use information you have shared (e.g., click stream information, browser type, time and date, subject of advertisements clicked or scrolled over, e-mail address) during your visits to this and other Web sites in order to provide advertisements about goods and services likely to be of greater interest to you. Our partners use this information to recognize you across different channels and platforms over time for advertising, analytics, attribution, and reporting purposes; any information collected is stored in hashed or non-human-readable form. These companies typically use a cookie or third-party web beacon to collect this information. To learn more about this behavioral advertising practice or to opt-out of this type of advertising, you can visit <a href="http://www.networkadvertising.org" target="_blank">http://www.networkadvertising.org</a> or <a href="http://www.aboutads.info/choices" target="_blank">http://www.aboutads.info/choices</a>.
+</p>
+
+<p>
+Bonnier websites sometimes may offer contests, sweepstakes, or promotions that are sponsored by or co-sponsored with identified third parties.  By virtue of their sponsorship, these third parties may obtain personally-identifying information that visitors voluntarily submit to them in order to participate in the contest, sweepstakes, or promotion.  Bonnier has no control over the third-party sponsors' use of this information.  If a third-party sponsor beyond our control will obtain information that you supply us, we will notify you at the time we collect the information from you.  For certain promotions, only those who provide us with the requested personally-identifying information will be able to order products, programs, and services, or otherwise participate in the promotion's activities and offerings.
+</p>
+
+<p>
+Some of our websites contain links to other sites.  By clicking on these links, you will leave the website operated by Bonnier and this Privacy Policy will no longer apply.  These other sites' information practices may be different than ours.  You should consult the other sites' privacy notices, as we have no control over information that is submitted to, or collected by, these third parties.
+</p>
+
+<h3>
+    How we use the information we collect
+</h3>
+
+<p>
+We use the personally-identifying information that you provide us to fulfill your requests for our products, programs, and services, to respond to your inquiries about offerings, and to offer you other products, programs, or services that we believe may be of interest to you.  We sometimes use this information to communicate with you, such as to notify you when you have won one of our contests, when we make changes to subscriber agreements, to fulfill a request by you for an online newsletter, or to contact you about your account with us. We do not use your personal information to make automated decisions.
+</p>
+
+<p>
+We may syndicate the publicly available content of our community areas to unaffiliated third-party websites, using RSS or other technologies.  The information you have shared in the community areas may be included in this syndication.
+</p>
+
+<p>
+We will use the personally-identifying information that you provide about others in order to provide the products or services that you have requested; for example, to enable us to send them your gifts or cards.  If you provide us someone else's personally-identifying information for referral purposes, we may use that information to invite them to visit our websites or to provide them information about our products or services.
+</p>
+
+<p>
+If you provide us with your e-mail and/or postal address, we may include that address in e-mail and/or postal address lists that we sell, trade, or rent to third parties.  These lists will never contain sensitive information.  If you do not wish for your e-mail or postal address to be shared with companies not owned by Bonnier who want to market products or services to you, you have the opportunity to opt out, as described below.  You may also opt out of the receipt of any marketing materials from Bonnier as described below.
+</p>
+
+<p>
+We may transfer your sensitive personally-identifying information to other Bonnier offices for internal management and administrative purposes.  In addition, your personal data will be transferred to other Bonnier offices where necessary for the performance or conclusion of our contractual obligations to you or for your benefit.  Transfers of personally-identifying information may also be made where necessary for the establishment, exercise, or defense of legal claims. We do not transfer personal information internationally.
+</p>
+
+<p>
+Bonnier will only share your sensitive personal information with outside companies or individuals in any of the following limited circumstances:
+</p>
+
+<ul>
+    <li>
+        When we use trusted businesses or persons to process personal information on our behalf.  Before sharing any personal information with outside parties, we require that these parties agree to process such information based on our instructions and in compliance with this Privacy Policy and any other appropriate confidentiality and security measures.
+    </li>
+    <li>
+        When we have a good faith belief that access, use, preservation, or disclosure is necessary to (a) comply with applicable law, regulation, or legal process; (b) enforce the applicable Terms of Service or other agreements and policies on the Company's Websites; (c) detect, prevent, or otherwise address fraud, security, or technical issues; or (d) protect against imminent harm to the rights, property, or safety or Bonnier, its users, or the public as required or permitted by law.
+    </li>
+    <li>
+        When you consent.  Before we share your sensitive personal information outside of the previously listed circumstances, we will ask you for permission first.  Please note that this only applies to sensitive information, as defined above.
+    </li>
+</ul>
+
+<p>
+We may also use, transfer, sell, and share aggregated, anonymous data about our users for any legal purpose, such as analyzing usage trends and seeking compatible advertisers and partners.  In no event will this aggregated data contain any information that could be used to identify individual users of our products or services.
+</p>
+
+<h3>
+    How we protect the safety and integrity of the information we collect
+</h3>
+
+<p>
+We take appropriate physical, electronic, and procedural measures to safeguard and protect your personal information.  We use a variety of security measures, including encryption and authentication, to maintain the confidentiality of your personal information.  We store your personal information on systems behind firewalls that are only accessible to a limited number of persons, each of whom is required to keep the information confidential.  We also take appropriate measures to secure the transmission of sensitive personal information from your computer to the Company's computers.  When you transmit sensitive personal information to us, like credit card information, we offer the use of a secure connection to our servers.  To the extent you select the secure connection method or your browser supports such functionality, all credit card account information that you supply is transmitted via secure encryption technology.  Regardless of these measures, no system connected to the Internet or data transmission sent over the Internet can be guaranteed to be 100% secure.  We will provide notice if we become aware of any security breach that may affect any sensitive personal information pertaining to you that we have stored on our systems.
+</p>
+
+<p>
+Bonnier employees, agents, and contractors who have access to personally-identifying information are required to protect this information in a manner that is consistent with this Privacy Policy and may not use the information for any purpose other than to carry out the services they are performing for Bonnier.  These individuals are bound by confidentiality obligations and may be subject to discipline, including termination and criminal prosecution, if they fail to meet these obligations.
+</p>
+
+<p>
+Bonnier only collects personal information that is relevant to the purposes for which it will be used.  Though we do take appropriate steps to review and update the information that we store to ensure that it is accurate, complete, and current, we also depend on you to update or correct your personal information when necessary.
+</p>
+
+<p>
+You may correct or delete any or all of the personal information you have provided to us at any time.  Many of our websites provide means to review and update the personal information that you have provided on that website.  To inquire about personally identifiable information that Bonnier has collected about you, or about other ways to correct factual errors in that information, please send us an e-mail at privacy@bonniercorp.com. (Note: Do not use this email address to send questions about your subscription. Instead, please visit the respective magazine’s customer service website.) To protect your privacy and security, we will take reasonable steps to help verify your identity before granting access or making corrections.  We will decline to process requests where we cannot verify the identity of the requester.  We may also decline to process requests that are automated, repetitive, systematic, or impractical, or that might jeopardize the privacy of others.
+</p>
+
+<p>
+In some limited circumstances, such as to resolve disputes, troubleshoot problems, and enforce our policies, we may retain some of information that you have requested us to remove.  Therefore, you should not expect that all of your personal information will be completely removed from our databases in response to your requests.
+</p>
+
+<p>
+We only use the information we collect for purposes consistent with this policy.  If we propose to use your personal information for purposes beyond that explained in this policy, we will provide appropriate notice before doing so and we will provide you with the means to opt out of those uses.  We will not use your sensitive personal information for any purposes other than those described in this Policy unless we have obtained your consent.
+</p>
+
+<h3>
+    Your privacy options
+</h3>
+
+<p>
+<strong>If you prefer not to receive e-mail communications from other companies,</strong> you may choose to remove yourself from any e-mail lists that we provide to third parties for marketing purposes by sending us an e-mail at <a href="mailto:emailoptout@bonniercorp.com">emailoptout@bonniercorp.com</a>.  You will still receive information from Bonnier and its various brands, but we will not share your address information with anyone else.
+</p>
+
+<p>
+<strong>If you prefer not to receive postal communication from other companies,</strong> you may choose to remove yourself from any postal mailing lists that we provide to third parties for marketing purposes by sending us an e-mail at <a href="mailto:emailoptout@bonniercorp.com">emailoptout@bonniercorp.com</a>, or writing us at P.O. Box 6364, Harlan, IA 51593-1864.  You will still receive information from Bonnier and its various brands, but we will not share your address information with anyone else.
+</p>
+
+<p>
+We only want to communicate with you if you want to hear from us.  <strong>If you prefer not to be contacted at all,</strong> you may opt out of receiving any communications from us at any time by notifying us at <a href="mailto:emailoptout@bonniercorp.com">emailoptout@bonniercorp.com</a>.  You may also notify us by sending mail to the following address:
+</p>
+
+<p>
+Online Marketing Department <br>
+Attn: Privacy Preferences <br>
+Bonnier Corporation <br>
+460 North Orlando Avenue, Suite 200 <br>
+Winter Park, FL  32789 <br>
+</p>
+
+<p>
+In all requests, please tell us what communications you would like to opt out of, what means we have been using to contact you (such as your e-mail or postal address), the date of your request, and a way to reach you in case we need to personally contact you in an effort to comply with your request.  We reserve the right to send you certain communications, such as technical alerts, without offering you the opportunity to opt out of receiving them.
+</p>
+
+<h3>
+    Enforcement and Compliance with this Privacy Policy
+</h3>
+
+<p>
+We take our Privacy Policy seriously and we regularly review our own compliance with this Policy.  If you have any questions or concerns about this Policy, or if you think that we have used your personal information in a manner inconsistent with this Policy, please contact us at:
+</p>
+
+<p>
+Privacy Department <br>
+Bonnier Corporation <br>
+460 North Orlando Ave., Suite 200 <br>
+Winter Park, FL 32789 <br>
+</p>
+
+<p>
+If we receive a complaint from you, we will contact you in an attempt to address your concerns.  If we are not able to resolve a complaint, we will participate in appropriate independent recourse mechanisms as necessary.
+</p>
+    </div>
+    <div id="data-disc" style="display: none;">
+      <h2>
+	Bonnier Corp. Website Data Disclosure
+</h2>
+<em>
+	This policy was last updated on May 25, 2018
+</em>
+
+
+<p>
+<strong>
+	Bonnier Corp. and its brands use cookies to identify your individual device so that we and our third-party partners can efficiently target you with content and advertisements that will be relevant to you, based on the pages you visit on our site(s) and other websites across the internet. 
+</strong>
+</p>
+
+
+<p>
+Bonnier may collect information such as the type of browser you use, your operating system, your IP address, the type of device you are using to access the site, and the domain name of your Internet Service Provider. This information, by itself, does not permit individual identification, meaning that you will remain anonymous. However, if you elect to provide us with personally-identifying information during your visit, that information may be linked to your IP address, or to your email address where we may have that on file through other Bonnier Corp. products or services.
+</p>
+
+<p>
+When you visit our websites, we and our third-party partners send cookies — small, removable data files – to your computer. We use cookies to uniquely identify your browser, which allows us to enhance and personalize your online experience at Bonnier websites. For example, cookies allow us to recognize you when you return to a website and present relevant content to you when you visit. Most browsers are initially set up to accept cookies, but you can configure your browser to warn you when cookies are sent, or to refuse all cookies. Some of the features and services of Bonnier websites may not operate properly if your cookies are disabled. Cookies, by themselves, do not provide us with any personally-identifying information.
+</p>
+
+<p>
+On our websites, we may also use tiny graphic images called pixel tags, web beacons, or clear gifs. These tiny images help us to analyze our users' online behavior and collect other data, such as page views or advertising responses. Pixel tags also allow us to send you email in a format that you can read, and let us know when you have opened an email message from us. Pixel tags may also be used to deliver cookies. Some of our websites also use third-party advertising companies to serve ads when you visit. These companies may use non-personally-identifying information about your visits to this and other websites in order to provide advertisements about goods and services of interest to you.
+</p>
+
+<p>
+We work with reputable third parties that provide data tracking and collection technologies in order to:
+</p>
+
+<ul>
+	<li>
+		Present or serve the advertisements you may see at Bonnier websites;
+	</li>
+
+	<li>
+		Deliver and track email communications;
+	</li>
+
+	<li>
+		Process purchase orders through e-commerce transactions;
+	</li>
+
+	<li>
+		Fulfill print and digital subscription orders; and
+	</li>
+
+	<li>
+		Provide marketing leads to third-party organizations (where you have agreed to allow us to do so).
+	</li>
+</ul>
+
+
+<p>
+These companies may collect information about you on our behalf. We require that these parties agree to process any such information based on our instructions and in compliance with this Privacy Policy and any other appropriate confidentiality and security measures.
+</p>
+
+<p>
+	We allow third-party companies to serve ads and/or collect certain information when you visit our website. These companies may use information you have shared (e.g., click stream information, browser type, time and date, subject of advertisements clicked or scrolled over, email address) during your visits to this and other websites in order to provide advertisements about goods and services likely to be of greater interest to you. Our partners use this information to recognize you across different channels and platforms over time for advertising, analytics, attribution, and reporting purposes; any information collected is stored in hashed or non-human-readable form. These companies typically use a cookie or third-party web beacon to collect this information. To learn more about this behavioral advertising practice or to opt-out of this type of advertising, you can visit <a href="http://www.networkadvertising.org" target="_blank">www.networkadvertising.org</a> or <a href="http://www.aboutads.info/choices" target="_blank">www.aboutads.info/choices</a>.
+</p>
+
+
+<p>
+You may correct or delete any or all of the personal information you have provided to us at any time. To inquire about personally identifiable information that Bonnier has collected about you, or about other ways to correct factual errors in that information, please send us an e-mail at <a href="mailto:privacy@bonniercorp.com">privacy@bonniercorp.com</a>. 
+</p>
+
+
+<p>
+If you have previously accepted Bonnier Corp.’s use of cookies, but now wish to reject that instead, please visit our <a href="javascript:CookieConsent.withdraw();CookieDeclaration.SetUserStatusLabel();">Site Opt Out</a> page. 
+</p>
+
+
+<p>
+For information on the data we store and how we use your data, please view our Privacy Policy. 
+</p>
+    </div>
+    <div id="declaration" style="display: none;">
+      <script id="CookieDeclaration" src="https://consent.cookiebot.com/5bc27aeb-6285-4587-9c25-b645397c4739/cd.js" type="text/javascript" async></script>
+    </div>
+  </body>
+</html>

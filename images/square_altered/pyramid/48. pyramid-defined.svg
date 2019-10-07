@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2017 mathsisfun.com -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="274.5" height="185" version="1.1">
+<defs>
+<linearGradient id="id2">
+<stop offset="0" style="stop-color:#82b200; stop-opacity:0.66;"/>
+<stop offset="1" style="stop-color:#82b200; stop-opacity:0.88;"/>
+</linearGradient>
+<linearGradient id="id1">
+<stop offset="0" style="stop-color:white; stop-opacity:0.69;"/>
+<stop offset="1" style="stop-color:white; stop-opacity:0;"/>
+</linearGradient>
+<marker id="id3" style="overflow:visible;" orient="auto">
+<path transform="matrix(-0.8,0,0,-0.8,-10,0)" style="fill:black; stroke:black; stroke-width:1pt;" d="M 0,0 5,-5 -12.5,0 5,5 Z"/>
+</marker>
+<radialGradient id="id4" r="7.31617" fx="-148.678" fy="769.068" cx="-148.7" cy="769.1" gradientTransform="matrix(4.65491,0,0,6.7164,397.703,-4341.04)" xlink:href="#id1" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="id5" gradientTransform="matrix(1.17919,0,0,1.17919,36.8742,-141.642)" xlink:href="#id2" x1="-274.7" y1="828.9" x2="-173.3" y2="833.7" gradientUnits="userSpaceOnUse"/>
+</defs>
+<g transform="translate(411.647,-744.237)">
+<path style="overflow:visible; fill:#82b200; fill-opacity:0.57; stroke:black; stroke-width:1; stroke-linejoin:round;" d="m -410,879.5 154.4,-20 -21.7,-93.7 z"/>
+<path style="overflow:visible; fill:#82b200; fill-opacity:0.57; stroke:black; stroke-width:1; stroke-linejoin:round;" d="M -255.6,859.5 -138.5,897.5 -277.3,765.8 Z"/>
+<path style="overflow:visible; fill:#19aeff; stroke:black; stroke-width:1; stroke-linejoin:round;" d="m -410,879.5 108.8,48.4 162.7,-30.4 -117.2,-38 z"/>
+<text x="-213" y="757.8" style="font-family:'Comic Sans MS'; font-size:25.2px; color:black; overflow:visible; fill:black; stroke-width:1.18px;">apex</text>
+<path style="marker-end:url(#id3); fill:none; stroke:black; stroke-width:1.18px;" d="m -220.7,752.7 -43.9,9.9"/>
+<text x="-1537.4" y="916.5" transform="matrix(1.06853,-0.179767,1.57232,0.671341,0,0)" style="font-family:'Comic Sans MS'; text-align:end; text-anchor:end; font-size:42.3px; overflow:visible; fill:black; stroke-width:1;">base</text>
+<path style="overflow:visible; fill:#ffe368; fill-opacity:0.68; stroke:black; stroke-width:1; stroke-linejoin:round;" d="m -410,879.5 108.8,48.4 23.9,-162 z"/>
+<ellipse cx="-294.4" cy="824.3" rx="33.6" ry="48.6" style="color:black; overflow:visible; fill:url(#id4); stroke-width:1.19;"/>
+<path style="overflow:visible; fill:url(#id5); stroke:black; stroke-width:1; stroke-linejoin:round;" d="M -301.2,927.9 -138.5,897.5 -277.3,765.8 Z"/>
+</g>
+</svg>
