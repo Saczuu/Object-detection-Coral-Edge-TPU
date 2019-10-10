@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test1</folder>
+	<filename>square_031.jpg</filename>
+	<path>/Users/maciejsaczewski/Documents/Inzynier/Object_detection_Coral/data/test1/square_031.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>square</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>181</xmin>
+			<ymin>203</ymin>
+			<xmax>218</xmax>
+			<ymax>238</ymax>
+		</bndbox>
+	</object>
+</annotation>

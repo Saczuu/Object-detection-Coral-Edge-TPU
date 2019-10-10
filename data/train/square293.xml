@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train1</folder>
+	<filename>square293.jpg</filename>
+	<path>/Users/maciejsaczewski/Documents/Inzynier/Object_detection_Coral/data/train1/square293.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>square</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>33</xmin>
+			<ymin>93</ymin>
+			<xmax>103</xmax>
+			<ymax>161</ymax>
+		</bndbox>
+	</object>
+</annotation>
