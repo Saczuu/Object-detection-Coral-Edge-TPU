@@ -1,7 +1,5 @@
-export PYTHONPATH=/Users/maciejsaczewski/Documents/Inzynier/Object_detection_Coral/slim:$PYTHONPATH
-
-NUM_TRAINING_STEPS=500 && \
-NUM_EVAL_STEPS=100
+NUM_TRAINING_STEPS=1000 && \
+NUM_EVAL_STEPS=200
 
 ./scripts/retrain_detection_model.sh \
 --num_training_steps ${NUM_TRAINING_STEPS} \
